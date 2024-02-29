@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+   
+   <style>
+        .cuadro-datos {
+            background-color: black; 
+            padding: 55px; 
+            margin: 50px auto; 
+            width: fit-content; 
+            border: 3px solid #580a0a; 
+            border-radius: 5%; 
+            box-shadow: 0 0 100px rgba(173, 38, 38, 0.1); 
+        }
+        button {
+      background-color: #eee;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      width: 10em;
+      border-radius: 1rem;
+      color: RED;
+      box-shadow: 0 0.3rem  #580a0a;
+      cursor: pointer;
+    }
+
+    button:active {
+      color:  RED;
+      box-shadow: 0 0.2rem #dfd9d9;
+      transform: translateY(0.2rem);
+    }
+
+    button:hover:not(:disabled) {
+      background: black;
+      color: RED;
+      text-shadow: 0 0.1rem black;
+    }
+
+    button:disabled {
+      cursor: auto;
+      color: grey;
+    }
+    </style>
+   
+</head>
+<body>
+    <body bgcolor="black"> 
+    <div class="cuadro-datos">
+        <h1 align="center"><font color="white"><u>HOJA DE DATOS PERSONALES</u></font></h1>
+    <p></p><br>
+    <p align left><font color="white"><b>NOMBRE:     JOSE LUIS OSEGUERA CHIRINOS</font></b></p>
+    <p></p><br>
+    <p align left><font color="white"><b>DIRECCION:     JUTICALPA, OLANCHO</font></b></p>
+    <p></p><br>
+    <p align left><font color="white"><b>IDENTIDAD:     1501-2007-01551</font></b></p>
+    <p></p><br>
+    <p align left><font color="white"><b>EDAD:          17</font></b></p>
+    <p></p><br>
+    <p align left><font color="white"><b>ESTADO CIVIL:      SOLTERO</font></b></p>
+    <p></p><br>
+    <p align left><font color="white"><b>TELEFONO CELULAR:      3367-8770</font></b></p>
+</div>
+<button onclick="window.location.href='index.html';">Regresar al menú principal</button>
+</body>
+</html>
